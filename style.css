@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: cyan;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.images, .gmail,  .privacy, .terms, .settings{
+    float: right;
+}
+
+main{
+    background-color: pink;
+}
+footer{
+    background-color: royalblue;
+}
