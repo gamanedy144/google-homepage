@@ -30,12 +30,20 @@
 
     <main>
         <section class="main-wrapper">
-            <a href="index.html"><img src="/google-logo.png" alt="google-logo" class="google-logo"></a>
-
-            <form action="/form/submit" method="GET" class="search-bar-form">
+            <a href="index.html"><img src="images/google-logo.png" alt="google-logo" class="google-logo"></a>
+            <div class="search-bar-wrapper">
+                <img src="images/searchicon.png" alt="" class="search-icon">
+                
+                <form action="/form/submit" method="GET" class="search-bar-form">
+                
                 <input type="text" name="text" class="search-bar" placeholder="">
-                <!-- <input type="submit" name="submit" class="submit" value="Search"> -->
-            </form>
+                
+                    <!-- <input type="submit" name="submit" class="submit" value="Search"> -->
+                </form>
+                <img src="images/google-microphone.png" alt="Voice Search" class="google-microphone-search">
+            </div>
+            
+
             <div class="search-buttons-wrapper">
                 <button class="google-search">Google Search</button>
                 <button class="feeling-lucky">I'm Feeling Lucky</button>

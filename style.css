@@ -90,6 +90,23 @@ main{
     margin: auto;
     margin-bottom: 5vh;
 }
+.search-bar-wrapper{
+    display: flex;
+    
+}
+.search-icon{
+    margin: auto;
+    position: relative;
+    left:35px;
+    padding-bottom: 7.5px;
+}
+.google-microphone-search{
+    margin: auto;
+    position: relative;
+    right: 35px;
+    padding-bottom: 10px;
+    
+}
 .search-bar{
     display: flex;
     align-self: center;
@@ -102,10 +119,11 @@ main{
     border:1px solid rgb(223,225,229);
     background-color: white;
     
-    background-image: url('searchicon.png');
+    /* background-image: url('images/searchicon.png');
     background-position: 10px 10px;
-    background-repeat: no-repeat;
-    padding-left: 35px;
+    background-repeat: no-repeat; */
+    padding-left: 37.5px; 
+
 }
 .search-bar:focus, .search-bar:hover{
     outline-width: 0px;
